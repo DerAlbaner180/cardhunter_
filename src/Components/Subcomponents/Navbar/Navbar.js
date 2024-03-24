@@ -41,7 +41,7 @@ function Navi() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+             <Button variant="outline-success" style={{width:"10em"}}>Hunt down</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
