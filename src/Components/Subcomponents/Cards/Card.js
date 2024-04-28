@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import logo from "./logo.svg";
+import logo from "./sol.jpg";
 import "./Card.css";
 
 function Cards() {
@@ -11,9 +11,9 @@ function Cards() {
       data-bs-theme="dark"
         className="Cards"
         style={{
-          width: "18rem",
+          width: "10rem",
           margin: "0 auto",
-          marginTop: "1em",
+          marginTop: "0.1em",
           float: "none",
           marginBottom: "10px",
           borderStyle: "solid",
@@ -31,10 +31,6 @@ function Cards() {
           }}
         />{" "}
         <Card.Body>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card 's content.{" "}
-          </Card.Text>{" "}
           <Button variant="primary" to="">
             {" "}
             Go somewhere{" "}
